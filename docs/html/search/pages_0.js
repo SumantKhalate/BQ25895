@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['default_20value_0',['Default value',['../default.html',1,'']]]
+  ['bq25895_0',['BQ25895',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

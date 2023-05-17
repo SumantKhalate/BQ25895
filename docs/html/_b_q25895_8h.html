@@ -450,15 +450,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a11fea27c6e613328abfd60cde0f306fa"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_b_q25895_8h.html#a11fea27c6e613328abfd60cde0f306fa">BQ25895_WriteRegister</a> (uint8_t reg, uint8_t *data)</td></tr>
 <tr class="memdesc:a11fea27c6e613328abfd60cde0f306fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes one byte of data to the designated BQ25895 register.  <br /></td></tr>
 <tr class="separator:a11fea27c6e613328abfd60cde0f306fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa45e69140ed276878c2136a4a9ae94e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_b_q25895_8h.html#afa45e69140ed276878c2136a4a9ae94e">BQ25895_WriteRegisters</a> (uint8_t reg, uint8_t *data, uint8_t len)</td></tr>
-<tr class="memdesc:afa45e69140ed276878c2136a4a9ae94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes multiple byte of data to the consecutive BQ25895 registers.  <br /></td></tr>
-<tr class="separator:afa45e69140ed276878c2136a4a9ae94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1b14cea5a96833ead39986c1408da7b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_b_q25895_8h.html#af1b14cea5a96833ead39986c1408da7b">BQ25895_ReadRegister</a> (uint8_t reg, uint8_t *data)</td></tr>
 <tr class="memdesc:af1b14cea5a96833ead39986c1408da7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads one byte of data from the designated BQ25895 register.  <br /></td></tr>
 <tr class="separator:af1b14cea5a96833ead39986c1408da7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8e866fe6ac2841088d9fd9e41b64619"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_b_q25895_8h.html#af8e866fe6ac2841088d9fd9e41b64619">BQ25895_ReadRegisters</a> (uint8_t reg, uint8_t *data, uint8_t len)</td></tr>
-<tr class="memdesc:af8e866fe6ac2841088d9fd9e41b64619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads multiple byte of data from consecutive BQ25895 registers.  <br /></td></tr>
-<tr class="separator:af8e866fe6ac2841088d9fd9e41b64619"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1579,7 +1573,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section user"><dt>Reset condition:</dt><dd>by REG_RST, by Watchdog </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Reverts Back to 0 after timer reset </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Reverts back to 0 after timer reset </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l00470">470</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
 
@@ -4453,7 +4447,7 @@ The above round off introduces an error of -0.64% at full scale compared to the 
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01709">1709</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01701">1701</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
 
 </div>
 </div>
@@ -4500,7 +4494,7 @@ The above round off introduces an error of -0.64% at full scale compared to the 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>HAL_StatusTypeDef variable describing if it was successful or not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01722">1722</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01713">1713</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
 
 </div>
 </div>
@@ -4540,54 +4534,7 @@ The above round off introduces an error of -0.64% at full scale compared to the 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>HAL_StatusTypeDef variable describing if it was successful or not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01739">1739</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
-
-</div>
-</div>
-<a id="afa45e69140ed276878c2136a4a9ae94e" name="afa45e69140ed276878c2136a4a9ae94e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa45e69140ed276878c2136a4a9ae94e">&#9670;&#160;</a></span>BQ25895_WriteRegisters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">HAL_StatusTypeDef BQ25895_WriteRegisters </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>reg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes multiple byte of data to the consecutive BQ25895 registers. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">reg</td><td>Register address to write to. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">*data</td><td>Pointer to a date buffer to write from. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Number of bytes to write. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>HAL_StatusTypeDef variable describing if it was successful or not. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01751">1751</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01730">1730</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
 
 </div>
 </div>
@@ -4627,54 +4574,7 @@ The above round off introduces an error of -0.64% at full scale compared to the 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>HAL_StatusTypeDef variable describing if it was successful or not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01763">1763</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
-
-</div>
-</div>
-<a id="af8e866fe6ac2841088d9fd9e41b64619" name="af8e866fe6ac2841088d9fd9e41b64619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e866fe6ac2841088d9fd9e41b64619">&#9670;&#160;</a></span>BQ25895_ReadRegisters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">HAL_StatusTypeDef BQ25895_ReadRegisters </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>reg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads multiple byte of data from consecutive BQ25895 registers. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">reg</td><td>Register address to read from. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*data</td><td>Pointer to a date buffer to read to. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Number of bytes to read. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>HAL_StatusTypeDef variable describing if it was successful or not. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01775">1775</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_b_q25895_8c_source.html#l01741">1741</a> of file <a class="el" href="_b_q25895_8c_source.html">BQ25895.c</a>.</p>
 
 </div>
 </div>
@@ -4707,7 +4607,7 @@ The above round off introduces an error of -0.64% at full scale compared to the 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_856524284ebe840938865dc061f982fb.html">Include</a></li><li class="navelem"><a class="el" href="_b_q25895_8h.html">BQ25895.h</a></li>
-    <li class="footer">Generated on Wed May 17 2023 12:45:39 for BQ25895 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed May 17 2023 18:35:28 for BQ25895 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

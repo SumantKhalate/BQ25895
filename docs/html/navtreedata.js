@@ -25,6 +25,11 @@
 var NAVTREE =
 [
   [ "BQ25895", "index.html", [
+    [ "BQ25895", "md__r_e_a_d_m_e.html", [
+      [ "Documentation", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Future todos:", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Compatibility", "md__r_e_a_d_m_e.html#autotoc_md3", null ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
@@ -42,8 +47,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_b_q25895_8c.html",
-"_b_q25895___r_e_g_8h.html#a06c4de1e64cd5a2112bd60cf7b4bc86b",
-"_b_q25895___r_e_g_8h.html#adef07514bef91f0ac7379cc816cb0799"
+"_b_q25895___r_e_g_8h.html#a0d48303d7c9c507776572d50b4abfaaf",
+"_b_q25895___r_e_g_8h.html#ae6a8ed23cfa77b4d25bb4be417cdb1ea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

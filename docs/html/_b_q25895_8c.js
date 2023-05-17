@@ -114,7 +114,5 @@ var _b_q25895_8c =
     [ "BQ25895_Init", "_b_q25895_8c.html#ab20cf98a5eed33ad1349115830f01ce5", null ],
     [ "BQ25895_UpdateBits", "_b_q25895_8c.html#a361568b8ed406154522167753bfe891a", null ],
     [ "BQ25895_WriteRegister", "_b_q25895_8c.html#a11fea27c6e613328abfd60cde0f306fa", null ],
-    [ "BQ25895_WriteRegisters", "_b_q25895_8c.html#afa45e69140ed276878c2136a4a9ae94e", null ],
-    [ "BQ25895_ReadRegister", "_b_q25895_8c.html#af1b14cea5a96833ead39986c1408da7b", null ],
-    [ "BQ25895_ReadRegisters", "_b_q25895_8c.html#af8e866fe6ac2841088d9fd9e41b64619", null ]
+    [ "BQ25895_ReadRegister", "_b_q25895_8c.html#af1b14cea5a96833ead39986c1408da7b", null ]
 ];
