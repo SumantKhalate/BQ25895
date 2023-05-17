@@ -1,5 +1,5 @@
 # BQ25895
-An STM32 HAL library written for the BQ25895 charge controller IC in C.
+An STM32 HAL library written for the BQ25895 li-ion/li-po charge controller IC in C.
 
 
 ## Documentation
@@ -16,4 +16,4 @@ An STM32 HAL library written for the BQ25895 charge controller IC in C.
 
 |        MCU        | Tested Works | Doesn't Work | Not Tested  | Notes |
 |------------------ | :----------: | :----------: | :---------: | ----- |
-|      STM32L0      |       X      |              |             |       |
+|      STM32L0      |      WIP     |              |             |       |
