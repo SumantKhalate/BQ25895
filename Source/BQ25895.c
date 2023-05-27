@@ -1,8 +1,8 @@
-/*
- * BQ25895.c
- *
- *  Created on: May 4, 2023
- *      Author: SESA674736
+/**
+ *  @brief     An STM32 HAL library written for the BQ25895 charge controller IC in C.
+ *  @author    Sumant Khalate www.github.com/SumantKhalate/BQ25895
+ *  @date      May 2023
+ *  @copyright GPL-3.0 license.
  */
 
 #ifdef __cplusplus

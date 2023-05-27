@@ -1,10 +1,8 @@
-/*
- * DS3231.h
- *
- *  Created on: Apr 10, 2023
- *  Author: Sumant Khalate (www.github.com/SumantKhalate)
- *
- *  An STM32 HAL library written for BQ25895 Charge Controller IC.
+/**
+ *  @brief     An STM32 HAL library written for the BQ25895 charge controller IC in C.
+ *  @author    Sumant Khalate www.github.com/SumantKhalate/BQ25895
+ *  @date      May 2023
+ *  @copyright GPL-3.0 license.
  */
 
 #ifndef BQ25895_REG
